@@ -1,12 +1,17 @@
 import Login from "../pages/Login";
+import Products from "../pages/Products"; 
 
 export const routerApp = [
     {
-        path: "/", // Esto le dice que cargue en la raíz
-        element: <Login />,
+        path: "/",
+        element: <Login />
     },
     {
-        path: "*", // Esto captura cualquier otra ruta inexistente
-        element: <Login />, 
+        path: "/products", // 
+        element: <Products />
+    },
+    {
+        path: "*",
+        element: <Login />
     }
 ];

@@ -1,5 +1,8 @@
-const URL_BASE = "https://app-gastos-personales-api.onrender.com" + "/"
+let port = "8080";
+const URL_BASE = `http://localhost:${port}/`; 
 
-export let end_points = {
-    inicio: URL_BASE + "inicio"
-}
+export const end_points = {
+    inicio: URL_BASE + "inicio",
+    productos: URL_BASE + "productos/", // <--- Asegúrate que coincida con tu backend
+    contacto: URL_BASE + "contacto/"
+};

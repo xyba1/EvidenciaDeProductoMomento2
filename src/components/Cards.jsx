@@ -1,7 +1,7 @@
 import './Cards.css'
 const Cards = ({ titulo, descripcion }) => {
   return (
-    <div className="flex flex-col items-center text-center max-w-sm h-70">
+<div className="flex flex-col items-center text-center w-[700px] h-auto min-h-[280px]">
 
       <div className="bg-[#0f172a] p-4 mb-6 flex items-center justify-center w-20 h-20">
       </div>

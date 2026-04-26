@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom'; // Importante para la navegación
+import { Link } from 'react-router-dom'; 
 import './header.css';
 
 const Header = () => {
@@ -32,8 +32,8 @@ const Header = () => {
             </li>
             
             <li>
-              {/* Si no tienes página de contacto aún, puedes dejarlo en "/" o crear la ruta luego */}
-              <Link to="/" className="link block py-2 px-3 text-heading rounded hover:bg-neutral-tertiary md:hover:bg-transparent md:border-0 md:hover:text-fg-brand md:p-0 text-white">
+             
+              <Link to="/contact" className="link block py-2 px-3 text-heading rounded hover:bg-neutral-tertiary md:hover:bg-transparent md:border-0 md:hover:text-fg-brand md:p-0 text-white">
                 Contacto
               </Link>
             </li>

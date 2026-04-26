@@ -1,6 +1,6 @@
 import Login from "../pages/Login";
 import Products from "../pages/Products"; 
-
+import Contact from "../pages/Contact";
 export const routerApp = [
     {
         path: "/",
@@ -11,7 +11,7 @@ export const routerApp = [
         element: <Products />
     },
     {
-        path: "*",
-        element: <Login />
+        path: "/contact",
+        element: <Contact />
     }
 ];

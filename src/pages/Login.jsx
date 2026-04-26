@@ -23,7 +23,7 @@ const Login = () => {
           </button>
         </section>
 
-        <section className="flex-grow pt-22 flex flex-row items-center justify-center md:grid-cols-3 gap-30">
+        <section className="flex-grow pt-22 flex flex-row items-center justify-center md:grid-cols-2 ">
             <Cards 
               titulo="DISEÑO ÚNICO"
               descripcion="Piezas exclusivas con estética urbana y minimalista"
